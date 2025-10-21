@@ -1,7 +1,7 @@
 {
   "name": "@teeboteebo/scrollable-flex-item",
-  "version": "1.0.6",
-  "description": "A scrollable flex container component for React + Tailwind v4 projects",
+  "version": "1.0.7",
+  "description": "A scrollable flex container component for React",
   "type": "module",
   "main": "dist/scrollable-flex-item.umd.js",
   "module": "dist/scrollable-flex-item.es.js",
@@ -36,5 +36,13 @@
     "typescript": "~5.9.3",
     "vite": "^7.1.7",
     "vite-plugin-dts": "^4.5.4"
-  }
+  },
+  "keywords": [
+    "react",
+    "flex",
+    "scrollable",
+    "scroll",
+    "flex-1",
+    "dynamic scroll"
+  ]
 }

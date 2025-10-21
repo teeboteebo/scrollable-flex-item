@@ -14,7 +14,6 @@ export const ScrollableFlexItem: React.FC<ScrollableFlexItemProps> = ({
     <div
       className={className}
       style={{
-        display: "flex",
         flex: 1,
         minHeight: 0,
         position: "relative",
