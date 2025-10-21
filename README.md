@@ -1,4 +1,4 @@
-# @jesperasplund/scrollable-flex-item
+# @teeboteebo/scrollable-flex-item
 
 A lightweight React component that provides a scrollable flex item for flexible layouts.
 
@@ -7,7 +7,7 @@ A lightweight React component that provides a scrollable flex item for flexible 
 ## Installation
 
 ```bash
-npm install @jesperasplund/scrollable-flex-item
+npm install @teeboteebo/scrollable-flex-item
 ```
 
 ---
@@ -16,7 +16,7 @@ npm install @jesperasplund/scrollable-flex-item
 
 ```tsx
 import React from "react";
-import { ScrollableFlexItem } from "@jesperasplund/scrollable-flex-item";
+import { ScrollableFlexItem } from "@teeboteebo/scrollable-flex-item";
 
 export default function Example() {
   return (

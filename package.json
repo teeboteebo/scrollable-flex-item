@@ -1,6 +1,6 @@
 {
-  "name": "@jesperasplund/scrollable-flex-item",
-  "version": "1.0.5",
+  "name": "@teeboteebo/scrollable-flex-item",
+  "version": "1.0.6",
   "description": "A scrollable flex container component for React + Tailwind v4 projects",
   "type": "module",
   "main": "dist/scrollable-flex-item.umd.js",
