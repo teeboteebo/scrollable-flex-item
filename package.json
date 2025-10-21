@@ -1,0 +1,40 @@
+{
+  "name": "@jesperasplund/scrollable-flex-item",
+  "version": "1.0.5",
+  "description": "A scrollable flex container component for React + Tailwind v4 projects",
+  "type": "module",
+  "main": "dist/scrollable-flex-item.umd.js",
+  "module": "dist/scrollable-flex-item.es.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/scrollable-flex-item.es.js",
+      "require": "./dist/scrollable-flex-item.umd.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "author": "teeboteebo",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview"
+  },
+  "peerDependencies": {
+    "react": ">=18.0.0",
+    "react-dom": ">=18.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^19.1.16",
+    "@types/react-dom": "^19.1.9",
+    "@vitejs/plugin-react": "^5.0.4",
+    "autoprefixer": "^10.4.21",
+    "eslint": "^9.36.0",
+    "typescript": "~5.9.3",
+    "vite": "^7.1.7",
+    "vite-plugin-dts": "^4.5.4"
+  }
+}
