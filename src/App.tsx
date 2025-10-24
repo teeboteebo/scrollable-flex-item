@@ -80,7 +80,9 @@ const App: React.FC = () => {
               }}
             >
               <span>Item {i + 1}</span>
-              <span style={{ color: "#ff6b6b" }}>BROKEN</span>
+              <span style={{ color: "#ff6b6b" }}>
+                0x{(i * 16).toString(16).padStart(4, "0")}
+              </span>
             </li>
           ))}
         </ul>
@@ -212,17 +214,17 @@ const App: React.FC = () => {
           Drag the bottom edge to resize the container vertically
         </p>
         {/* Links Section */}
-        
-          <h2
-            style={{
-              textAlign: "center",
-              margin: 0,
-              color: "#e0e0e0",
-              marginBottom: "20px",
-            }}
-          >
-            Getting Started
-          </h2>
+
+        <h2
+          style={{
+            textAlign: "center",
+            margin: 0,
+            color: "#e0e0e0",
+            marginBottom: "20px",
+          }}
+        >
+          Getting Started
+        </h2>
         <div
           style={{
             marginBottom: "40px",
