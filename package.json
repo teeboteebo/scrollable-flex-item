@@ -1,6 +1,6 @@
 {
   "name": "@teeboteebo/scrollable-flex-item",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": "A scrollable flex container component for React",
   "type": "module",
   "main": "dist/scrollable-flex-item.umd.js",
@@ -17,6 +17,7 @@
     "dist"
   ],
   "author": "teeboteebo",
+  "repository": "https://github.com/teeboteebo/scrollable-flex-item",
   "license": "MIT",
   "scripts": {
     "dev": "vite --config vite.demo.config.ts",
