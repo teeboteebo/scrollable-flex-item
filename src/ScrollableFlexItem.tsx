@@ -17,7 +17,6 @@ export const ScrollableFlexItem: React.FC<ScrollableFlexItemProps> = ({
         minHeight: 0,
         position: "relative",
       }}
-      {...props}
     >
       <div
         className={className}
@@ -27,6 +26,7 @@ export const ScrollableFlexItem: React.FC<ScrollableFlexItemProps> = ({
           overflow: "auto",
           ...style,
         }}
+        {...props}
       >
         {children}
       </div>

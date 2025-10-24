@@ -156,8 +156,8 @@ The component accepts all standard `div` props plus:
 | Prop | Type | Description |
 |------|------|-------------|
 | `children` | `React.ReactNode` | The content to be rendered inside the scrollable container |
-| `className` | `string` | CSS class name for the outer container |
-| `style` | `React.CSSProperties` | Inline styles for the outer container |
+| `className` | `string` | CSS class name for the inner container |
+| `style` | `React.CSSProperties` | Inline styles for the inner container |
 | `...props` | `React.HTMLAttributes<HTMLDivElement>` | Any other div attributes |
 
 ---
