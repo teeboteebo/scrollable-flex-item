@@ -12,20 +12,20 @@ export const ScrollableFlexItem: React.FC<ScrollableFlexItemProps> = ({
 }) => {
   return (
     <div
-      className={className}
       style={{
         flex: 1,
         minHeight: 0,
         position: "relative",
-        ...style,
       }}
       {...props}
     >
       <div
+        className={className}
         style={{
           position: "absolute",
           inset: 0,
           overflow: "auto",
+          ...style,
         }}
       >
         {children}
