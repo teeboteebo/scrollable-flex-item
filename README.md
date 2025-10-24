@@ -2,7 +2,7 @@
 
 A lightweight React component that solves the common CSS flexbox scrolling problem. When you need a flex item to be scrollable within a dynamic height container, the standard approach often fails. This component provides a reliable solution.
 
-## 🚀 [Live Demo](https://scrollable-flex-item.vercel.app)
+## 🚀 [Live Demo](https://teeboteebo.github.io/scrollable-flex-item/)
 
 See the interactive demo to understand the problem and how this component solves it.
 
@@ -202,4 +202,4 @@ MIT © [teeboteebo](https://github.com/teeboteebo)
 
 - [📦 NPM Package](https://www.npmjs.com/package/@teeboteebo/scrollable-flex-item)
 - [⭐ GitHub Repository](https://github.com/teeboteebo/scrollable-flex-item)
-- [🚀 Live Demo](https://scrollable-flex-item.vercel.app)
+- [🚀 Live Demo](https://teeboteebo.github.io/scrollable-flex-item/)
