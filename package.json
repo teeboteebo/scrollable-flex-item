@@ -1,6 +1,6 @@
 {
   "name": "@teeboteebo/scrollable-flex-item",
-  "version": "1.0.10",
+  "version": "1.0.11",
   "description": "A scrollable flex container component for React",
   "type": "module",
   "main": "dist/scrollable-flex-item.umd.js",
