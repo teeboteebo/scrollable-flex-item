@@ -18,6 +18,7 @@
   ],
   "author": "teeboteebo",
   "repository": "https://github.com/teeboteebo/scrollable-flex-item",
+  "homepage": "https://teeboteebo.github.io/scrollable-flex-item/",
   "license": "MIT",
   "scripts": {
     "dev": "vite --config vite.demo.config.ts",
